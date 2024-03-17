@@ -1,39 +1,39 @@
-# Entity Conversion and Cryptography
+# Entity Manipulation and Cryptography
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
-- [Text Conversion and Cryptography](#text-conversion-and-cryptography)
-- [Unit Conversion](#unit-conversion)
-- [File Format Conversion](#file-format-conversion)
+- [Cryptography](#cryptography)
+- [Unit Alteration](#unit-alteration)
+- [File Format Modification](#file-format-modification)
 - [Python Library Requirements](#python-library-requirements)
 - [Directions to use](#directions-to-use)
 - [Conclusion](#conclusion)
 - [License](#license)
 
 ## Introduction
-The **Entity Conversion and Cryptography**  project is a versatile and user-friendly tool designed to facilitate the efficient conversion of various entities, including text, units, and file formats. With its intuitive interfaces and comprehensive functionalities, this project aims to streamline the conversion process and enhance user productivity.
+The **Entity Manipulation and Cryptography**  project is a versatile and user-friendly tool designed to facilitate the efficient conversion of various entities, including text, units, and file formats. With its intuitive interfaces and comprehensive functionalities, this project aims to streamline the conversion process and enhance user productivity.
 
 ## Key Features:
 
-### [Text Convert and Cryptography](text.py):
+### [Data Encryption and Decryption](text.py):
 
 - Convert text between different formats such as binary, decimal, hexadecimal, Morse code, Braille, and more.
 - Perform encryption and decryption using various cryptographic algorithms including Caesar Cipher, Vigenère Cipher, Rail Fence Cipher, and Atbash Cipher.
 - Generate QR codes from text inputs for easy sharing and storage, and text to speech.
 
-### [Unit Convert](unit.py):
+### [Unit Alter](unit.py):
 
 - Convert units across multiple categories including currency, length, area, volume, weight, temperature, speed, pressure, power, time, and data storage.
 - Provides support for both metric and imperial units, ensuring comprehensive coverage for diverse conversion needs.
 
-### [File Format Convert](file.py):
+### [File Formats](file.py):
 
 - Convert between different file formats for images, audio, video, documents, and archives.
 - Supported file formats include JPEG, PNG, PDF, MP3, MP4, DOCX, ZIP, and many more.
 - Offers seamless conversion capabilities to enhance file compatibility and accessibility.
 
-## [Text Conversion and Cryptography](text.py)
+## [Cryptography](text.py)
 The text conversion and cryptography section offer the following functionalities:
 
 ### [Text to QR Code](qr.py)
@@ -131,7 +131,7 @@ Converts text to Braille and Braille to text. Braille is a tactile writing syste
 - Plain Text: "HELLO"
 - Braille: ⠓⠑⠇⠇⠕
 
-## [Unit Conversion](unit.py)
+## [Unit Alteration](unit.py)
 The unit conversion section provides conversion functionalities for various units:
 
 ### [Currency](currency.py)
@@ -306,7 +306,7 @@ The unit conversion section provides conversion functionalities for various unit
 - Bit (b)
 - Nibble (n)
 
-## [File Format Conversion](file.py)
+## [File Format Modification](file.py)
 The file format conversion section offers conversion functionalities for different file formats:
 
 ### [Image Conversion](image.py)
@@ -379,7 +379,7 @@ The project requires the following Python libraries, which can be installed usin
 1. **Clone the Repository:**
     - Clone the GitHub repository to your local machine using the following command:
       ```
-      git clone https://github.com/pratham-pai/Entity-Conversion-and-Cryptography
+      git clone https://github.com/pratham-pai/Entity-Manipulation-and-Cryptography
       ```
 
 2. **Install Dependencies:**
@@ -398,7 +398,7 @@ The project requires the following Python libraries, which can be installed usin
 
 ## Conclusion 
 
-- The "Entity Conversion and Cryptography" project offers an extensive range of conversion functionalities, making it a versatile tool for various purposes. Users can effortlessly convert text to different representations such as Morse code and Braille, perform cryptographic operations like encryption and decryption using popular algorithms, and convert units across diverse categories.
+- The "Entity Manipulation and Cryptography" project offers an extensive range of conversion functionalities, making it a versatile tool for various purposes. Users can effortlessly convert text to different representations such as Morse code and Braille, perform cryptographic operations like encryption and decryption using popular algorithms, and convert units across diverse categories.
 
 - Furthermore, the project provides comprehensive file format conversion capabilities, allowing users to convert images, audio files, videos, documents, and archives to different formats. This feature enhances file compatibility and ensures seamless data interchange across different platforms and applications.
 
